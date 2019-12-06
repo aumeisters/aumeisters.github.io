@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <title>Shopping cart HW</title><meta charset="utf-8">
+   <link rel='stylesheet' type='text/css' href='css.css'>
+ </head>
+ <body>
+  <div id='main'>
+    <div id='limit'>
+      <h3>Ваш запланированный максимум:</h3>
+      <input type='text' id='maxVal'>
+      <button id='accept'>ОК</button>
+    </div>
+    <div id='total'>
+      <p>Итого:<span id='totalCost'></span></p>  
+    </div>
+    <div id='items'>
+      <div class='items-class'>
+        <img id='item1'src='https://image.flaticon.com/icons/svg/64/64127.svg'>
+        <h4>HDD Drive цена: <span id='hddPrice'></span></h4>
+      </div>
+      <div class='items-class'>
+        <img id='item2' src='https://image.flaticon.com/icons/svg/64/64199.svg'>
+        <h4>SSD Drive цена: <span id='ssdPrice'></span></h4>
+      </div>
+      <div class='items-class'>
+        <img id='item3' src='https://image.flaticon.com/icons/svg/81/81520.svg'>
+        <h4>USB Drive цена: <span id='usbPrice'></span></h4>
+      </div>
+    </div>
+    <div id='cart'>
+      <p>Shopping List:</p>
+    </div>
+    <button id='reload'>Перезагрузить</button>
+  </div>
+  <script src='script.js'></script>
+ </body>
+</html>
