@@ -6,7 +6,6 @@
  </head>
  <body>
   <div id='main'>
-    <button id='reload'>Перезагрузить</button>
     <div id='limit'>
       <h2>Введите Ваш запланированный максимум и нажмите 'Ок':</h2>
       <input type='text' id='maxVal'>
@@ -17,17 +16,23 @@
     </div>
     <div id='items'>
       <div class='items-class'>
-        <img id='item1'src='https://image.flaticon.com/icons/svg/64/64127.svg'>
-        <h4>HDD Drive цена: <span id='hddPrice'></span></h4>
+        <img id='item1' draggable='true' src='https://image.flaticon.com/icons/svg/64/64127.svg'>
+        <h4 class="disable-select">HDD Drive цена: <span id='hddPrice'></span></h4>
       </div>
       <div class='items-class'>
-        <img id='item2' src='https://image.flaticon.com/icons/svg/64/64199.svg'>
-        <h4>SSD Drive цена: <span id='ssdPrice'></span></h4>
+        <img id='item2' draggable='true' src='https://image.flaticon.com/icons/svg/64/64199.svg'>
+        <h4 class="disable-select">SSD Drive цена: <span id='ssdPrice'></span></h4>
       </div>
       <div class='items-class'>
-        <img id='item3' src='https://image.flaticon.com/icons/svg/81/81520.svg'>
-        <h4>USB Drive цена: <span id='usbPrice'></span></h4>
+        <img id='item3' draggable='true' src='https://image.flaticon.com/icons/svg/81/81520.svg'>
+        <h4 class="disable-select">USB Drive цена: <span id='usbPrice'></span></h4>
       </div>
+    </div>
+    <div id='addInfo'>
+      <p class="disable-select">Нажмите на картинку с товаром, чтоб добавить его в корзину, или перетащите в область и изображением "Коробки".</p>
+    </div>
+    <div id='droppable'>
+      <p id='dropbox-text' class="disable-select">Перетащить сюда</p>
     </div>
     <div id='cart'>
       <p>Shopping List:</p>
