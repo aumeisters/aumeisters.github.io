@@ -31,6 +31,8 @@
     }
     #cart {
      padding: 10px;
+     font-weight: bold;
+     font-size: 18px;
     }
     img {
       width: 100%;
