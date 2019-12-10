@@ -31,8 +31,10 @@
     }
     #cart {
      padding: 10px;
+    }
+    #shoppingList { 
      font-weight: bold;
-     font-size: 18px;
+     font-size: 18px;  
     }
     img {
       width: 100%;
